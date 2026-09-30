@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  background: linear-gradient(135deg, #0F1419 0%, #1a0f2e 50%, #0F1419 100%);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-gradient-to-r from-hex-purple to-hex-accent text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-hex-purple/50 transition-all;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-hex-dark border-2 border-hex-purple text-hex-purple font-semibold rounded-lg hover:bg-hex-purple/10 transition-all;
+}
+
+.card {
+  @apply bg-hex-dark/50 backdrop-blur-md border border-hex-purple/20 rounded-xl p-6 hover:border-hex-purple/50 transition-all;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-hex-purple via-hex-pink to-hex-gold bg-clip-text text-transparent;
+}
