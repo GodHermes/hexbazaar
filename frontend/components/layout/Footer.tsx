@@ -18,6 +18,7 @@ export default function Footer() {
               <li><Link href="/marketplace" className="hover:text-hex-purple">Marketplace</Link></li>
               <li><Link href="/game" className="hover:text-hex-purple">Game</Link></li>
               <li><Link href="/vip" className="hover:text-hex-purple">VIP</Link></li>
+              <li><Link href="/bag" className="hover:text-hex-purple">Bag / HEX</Link></li>
             </ul>
           </div>
           <div>
@@ -39,7 +40,7 @@ export default function Footer() {
 
         <div className="border-t border-hex-purple/20 pt-8">
           <div className="flex justify-between items-center">
-            <p className="text-gray-500 text-sm">© 2024 HexBazaar. All rights reserved.</p>
+            <p className="text-gray-500 text-sm">© 2026 HexBazaar · Demo curb · HEX theater</p>
             <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-hex-purple">
                 <Twitter className="w-5 h-5" />
